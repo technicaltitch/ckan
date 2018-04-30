@@ -1689,7 +1689,7 @@ def package_search(context, data_dict):
         sort-orderings.
     :type sort: string
     :param rows: the number of matching rows to return. There is a hard limit
-        of 1000 datasets per query.
+        of 1000 datasets per query. Optional. Default is 10.
     :type rows: int
     :param start: the offset in the complete result for where the set of
         returned datasets should begin.
